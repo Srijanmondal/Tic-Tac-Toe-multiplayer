@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pretty Tic Tac Toe</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="content">
+    <table class="table_overlay">
+    <tr>
+      <td id="square_one_text" class="text"></td>
+      <td id="square_two_text" class="text"></td>
+      <td id="square_three_text" class="text"></td>
+    </tr>
+    <tr>
+       <td id="square_four_text" class="text"></td>
+       <td id="square_five_text" class="text"></td>
+       <td id="square_six_text" class="text"></td>
+    </tr>
+    <tr>
+       <td id="square_seven_text" class="text"></td>
+       <td id="square_eight_text" class="text"></td>
+       <td id="square_nine_text" class="text"></td>
+    </tr>
+  </table>
+<div class="board">
+  <table>
+    <tr>
+      <td id="square_one"></td>
+ 
+       <td id="square_two"></td>
+
+       <td id="square_three"></td>
+    </tr>
+    <tr>
+       <td id="square_four"></td>
+       <td id="square_five"></td>
+       <td id="square_six"></td>
+    </tr>
+    <tr>
+       <td id="square_seven"></td>
+       <td id="square_eight"></td>
+       <td id="square_nine"></td>
+    </tr>
+  </table> 
+</div>
+  
+
+</div>
+
+<div id="myModal" class="modal animated fadeIn">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+     <div class="modal-header">
+    <h2>Game Over</h2>
+  </div>
+    <div class="modal-body">
+    <p class="modal_text"></p>
+      <btn id="restartBtn">Play again?</btn>
+    </div>
+  </div>
+
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
